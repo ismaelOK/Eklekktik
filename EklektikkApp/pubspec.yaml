@@ -1,0 +1,54 @@
+name: eklektikk
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.12.1 # Pour initialiser Firebase
+  firebase_auth: ^5.5.1  # Pour l'authentification
+  cloud_firestore: ^5.6.5 #Pour firestore
+  provider: ^6.0.0
+  font_awesome_flutter: ^10.8.0
+  url_launcher: ^6.1.11
+  image_picker: ^0.8.5+3
+  firebase_storage: ^12.4.4
+  cupertino_icons: ^1.0.8
+  salomon_bottom_bar: ^3.3.2
+  intl: ^0.20.2
+  flutter_credit_card: ^2.0.0
+  flutter_dotenv: ^5.1.0
+  http: ^1.1.0
+  cloud_functions: ^5.3.4
+  cloud_functions_platform_interface: ^5.5.13
+  cloud_functions_web: ^4.7.1
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.9.2  # Cette dépendance permet de générer les icônes
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/images/logo.png"  # Le chemin vers l' image d'icône
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/images/logo.png  # Ajouter cette ligne pour inclure l'icône dans les assets
+    - lib/assets/images/eklektikkImg1.PNG
+    - lib/assets/images/eklektikkImg2.PNG
+    - lib/assets/images/eklektikkImg3.PNG
+    - .env
