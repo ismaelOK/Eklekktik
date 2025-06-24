@@ -1,4 +1,4 @@
-# eklektikk
+# eklekktik
 
 A new Flutter project.
 
